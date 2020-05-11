@@ -16,6 +16,7 @@
         <module>spring-boot-02-config-autoconfig</module>
         <module>spring-boot-03-logging</module>
         <module>spring-boot-04-web-restfulcrud</module>
+        <module>spring-boot-04-web-jsp</module>
     </modules>
 
 </project>
