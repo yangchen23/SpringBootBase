@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://124.156.172.108:3306/jdbc?serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialization-mode: always
+    schema:
+      - classpath:department.sql
+
+# jdbc:mysql://localhost:3306/jdbc?serverTimezone=GMT%2B8&useSSL=false
+# UTC代表的是全球标准时间 ，但是我们使用的时间是北京时区也就是东八区，领先UTC八个小时。
+# com.mysql.jdbc.Driver 已经被弃用
+
+# initialization-mode: always 建表语句执行
+
+
