@@ -2,7 +2,7 @@ spring:
   datasource:
     username: root
     password: 123456
-    url: jdbc:mysql://124.156.172.108:3306/jdbc?serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://124.156.172.108:3306/mybatis?serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
     initialization-mode: always
     type: com.alibaba.druid.pool.DruidDataSource
@@ -18,14 +18,14 @@ spring:
     testOnBorrow: false
     testOnReturn: false
     poolPreparedStatements: true
-#   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    #   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
     filters: stat,wall,slf4j
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
-
 #    schema:
-#      - classpath:department.sql
+#      - classpath:sql/department.sql
+#      - classpath:sql/employee.sql
 
 # jdbc:mysql://localhost:3306/jdbc?serverTimezone=GMT%2B8&useSSL=false
 # UTC代表的是全球标准时间 ，但是我们使用的时间是北京时区也就是东八区，领先UTC八个小时。
@@ -34,3 +34,6 @@ spring:
 # initialization-mode: always 建表语句执行
 
 
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
