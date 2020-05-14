@@ -19,6 +19,8 @@
         <module>spring-boot-04-web-jsp</module>
         <module>spring-boot-06-data-jpa</module>
         <module>spring-boot-06-data-mybatis</module>
+        <module>spring-boot-06-jpa-data</module>
+        <module>spring-boot-07</module>
     </modules>
 
 </project>
