@@ -21,6 +21,10 @@
         <module>spring-boot-06-data-mybatis</module>
         <module>spring-boot-06-jpa-data</module>
         <module>spring-boot-07</module>
+        <module>atguigu-spring-boot-starter</module>
+        <module>atguigu-spring-boot-starter-autoconfigurer</module>
+        <module>spring-boot-08-starter-test</module>
+        <module>spring-boot-11-cache</module>
     </modules>
 
 </project>
