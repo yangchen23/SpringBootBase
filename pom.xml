@@ -25,6 +25,8 @@
         <module>atguigu-spring-boot-starter-autoconfigurer</module>
         <module>spring-boot-08-starter-test</module>
         <module>spring-boot-11-cache</module>
+        <module>spring-boot-12-amqp</module>
+        <module>spring-boot-13-elastic</module>
     </modules>
 
 </project>
