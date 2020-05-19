@@ -27,6 +27,8 @@
         <module>spring-boot-11-cache</module>
         <module>spring-boot-12-amqp</module>
         <module>spring-boot-13-elastic</module>
+        <module>spring-boot-14-task</module>
+        <module>spring-boot-15-security</module>
     </modules>
 
 </project>
