@@ -29,6 +29,7 @@
         <module>spring-boot-13-elastic</module>
         <module>spring-boot-14-task</module>
         <module>spring-boot-15-security</module>
+        <module>spring-boot-17-deploy</module>
     </modules>
 
 </project>
